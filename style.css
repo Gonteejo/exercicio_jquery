@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header { 
+    background: rgb(238,174,202);
+    background: linear-gradient(180deg, rgba(238,174,202,1) 0%, rgba(203,179,214,1) 100%);
+    padding:  16px 0;
+    color: #4D4C4F;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+body {
+    background-color: rgba(148,187,233,1);
+    min-height: 100vh;   
+}
+
+#form-holder {
+    display: none;
+}
+
+form {
+    background: rgb(203,179,214);
+    background: linear-gradient(180deg, rgba(203,179,214,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 16px;
+    color: #4D4C4F;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+.input-number {
+    width: 70px;
+
+}
+
+#input-text {
+    width: 504px;
+}
+
+button {
+    background-color: #E8C8DD;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#botao-cancelar {
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+#form-holder img {
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+}
+
+#List-holder { 
+    background-color: #F6EED9;
+    max-width: 926px;
+    height: 85vh;
+    margin: 24px auto;
+    border-radius: 9px;
+}
+
+ol{
+    word-wrap:break-word;
+    color: #4D4C4F;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 24px;
+    padding-top: 18px;
+}
